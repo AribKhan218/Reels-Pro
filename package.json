@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
     "@imagekit/next": "^2.1.2",
     "@types/bcryptjs": "^2.4.6",
     "bcryptjs": "^3.0.2",
@@ -16,7 +17,8 @@
     "next": "15.3.4",
     "next-auth": "^4.24.11",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.60.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

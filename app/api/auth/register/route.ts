@@ -29,14 +29,13 @@ export async function POST(request: NextRequest) {
     });
 
     return NextResponse.json(
-      { message: "User registered successfully" },
-      { status: 400 }
+      { success: true, message: "User registered successfully" },
+      { status: 200 }
     );
-
   } catch (error) {
-    console.error("Registration Error")
+    console.error("Registration Error");
     return NextResponse.json(
-      { error: "Failed to register user" },
+      { success: false, error: "Failed to register user" },
       { status: 400 }
     );
   }
